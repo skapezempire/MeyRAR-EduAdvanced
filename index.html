@@ -1,0 +1,678 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>&lt;MeyRAR&gt; AR</title>
+    <meta charset="utf-8">
+    <meta name="description" content="&lt;model-viewer&gt; template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" href="styles.css" rel="stylesheet"/>
+  </head>
+  <body>
+    
+    <header>
+        <!-- <img class="logo" src="images/icon.png" alt="logo"> -->
+        <img class="logo" src="MeyRAR_union Transparent.png" alt="logo">
+        <nav>
+            <!-- <img class="logo" src="images/icon.png" alt="logo"> -->
+            <ul class="nav_links">
+                
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">CONTACT</a></li>
+            </ul>
+    
+    
+    
+        </nav>
+    
+    
+    </header>
+    <!-- nav and header  end-->
+    
+  
+    
+        <!-- upper  start-->
+    
+        <div class="upper">
+            <!-- <div class="bg-image"></div> -->
+            <h3 id="head_text">Reimagining Education</h3>
+    
+            <p id="head_sub">
+                
+                We're excited to take you on a spatial adventure as we unveil the some 3D models you absolutely must play with. <br>
+                Let your imaginations be your guide, and let's embark on a brain expedition through these extraordinary 3D models.
+
+                
+            </p>
+    
+          </div>
+
+
+
+    <!-- <model-viewer> HTML element -->
+
+    <!-- start of digestive-system -->
+    <div class="main">
+        <model-viewer src="realistic_human_stomach.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="digestiveposter.png" shadow-intensity="1" auto-rotate camera-orbit="48.99deg 79.28deg 2.23m" field-of-view="30deg">
+            <button class="Hotspot" slot="hotspot-1" data-position="0.09366384693785539m 0.43401434017715557m 0.09794808522440523m" data-normal="0.3845800805790208m 0.3410384547353124m 0.8577825680285094m" data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Stomach</div>
+            </button><button class="Hotspot" slot="hotspot-2" data-position="0.054272570271601685m 0.20059928989425488m 0.10347071118562201m" data-normal="0.2736900396645783m -0.4328474549795111m 0.8589160860678776m" data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Small intestine</div>
+            </button><button class="Hotspot" slot="hotspot-4" data-position="-0.15451436214459974m 0.25364711521485367m 0.06395324658931158m" data-normal="-0.3822944411047935m -0.057253225874938855m 0.9222651616684255m" data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Large intestine</div>
+            </button><button class="Hotspot" slot="hotspot-5" data-position="-0.000013060213405785732m 0.8982203562901632m -0.07476796144112853m" data-normal="-0.18774296725138176m -0.09871993555592849m 0.9772445715231577m" data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Esophagus</div>
+            </button><button class="Hotspot" slot="hotspot-7" data-position="0.012212511153077303m 0.05752892897584716m 0.04344894549951256m" data-normal="0.5492496792981483m -0.3496134374360312m 0.759009376855809m" data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Rectum</div>
+            </button><button class="Hotspot" slot="hotspot-8" data-position="-0.011219093033076291m 0.01894631639919453m -0.003277719113292596m" data-normal="-0.7808032798185148m -0.5302050709970731m -0.3304978379863307m" data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Anus</div>
+            </button>
+            <div class="progress-bar hide" slot="progress-bar">
+                <div class="update-bar"></div>
+            </div>
+            <div class="card-digestive">
+                <h1 id="digest">Digestive System</h1>
+                <button class="burst"><a href="https://shepherdd.com/web-stories/human-digestive-system/"
+                        target="_blank">Burst</a></button>
+                <button class="quiz"><a href="https://qwizcards.net/u/genesis/shepherdd"
+                        target="_blank">Quiz</a></button>
+
+                <button slot="ar-button" class="ar-button">
+                    View in your space
+                </button>
+            </div>
+
+                <div class="ar-prompt">
+                    <img src="ar_hand_prompt.png" alt="hand">
+                </div>
+            <!-- </div> -->
+
+
+        </model-viewer>
+
+        <!-- End of digestive system -->
+
+
+
+        <!-- Start of plant cell -->
+        <model-viewer src="plant cell.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls
+            poster="posterPlantCell.png" shadow-intensity="1" auto-rotate>
+            <button class="Hotspot" slot="hotspot-1"
+                data-position="0.12353066601947701m -0.13290132471204608m 0.2975559833787951m"
+                data-normal="-0.4442781248767603m -0.7165963353438523m 0.5376863769222271m"
+                data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Cell Wall</div>
+            </button><button class="Hotspot" slot="hotspot-2"
+                data-position="0.07074776810660502m 0.12961624102490493m 0.21485679542361186m"
+                data-normal="0.09759418699402242m -0.10265385177733077m 0.9899179568935266m"
+                data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Nuclear Pore</div>
+            </button><button class="Hotspot" slot="hotspot-3"
+                data-position="-0.14763671290405406m 0.03484668243518145m 0.23107840240838562m"
+                data-normal="8.314458697658281e-8m 0.6004854802263329m 0.7996356595583665m"
+                data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Cell Membrane</div>
+            </button><button class="Hotspot" slot="hotspot-5"
+                data-position="0.0421564293551782m -0.09473933218461109m 0.32395632264868857m"
+                data-normal="-0.0021700668679296353m 0.605088524206812m 0.7961552415722772m"
+                data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Cytoplasm</div>
+            </button><button class="Hotspot" slot="hotspot-6"
+                data-position="0.09715590578934981m -0.05428830766782747m 0.29587598415140864m"
+                data-normal="0.0090824895763053m 0.5775957035774367m 0.8162724493647832m"
+                data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Mitochondrion</div>
+            </button><button class="Hotspot" slot="hotspot-7"
+                data-position="0.041461375042701004m 0.07364571004471657m 0.22615848470780942m"
+                data-normal="0.27270887833179147m -0.6462345887271962m 0.7127487102840719m"
+                data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Nucleolus</div>
+            </button><button class="Hotspot" slot="hotspot-8"
+                data-position="0.027112707899176157m 0.12414082637824309m 0.25417544353706206m"
+                data-normal="-0.15148732500203063m 0.6383855877808327m 0.7546624620831821m"
+                data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Nucleus</div>
+            </button><button class="Hotspot" slot="hotspot-9"
+                data-position="-0.06968524720541733m 0.006511041804247303m 0.2558749111873698m"
+                data-normal="0.00856875215192389m 0.6051946796143398m 0.7960313914997673m"
+                data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Chloroplast</div>
+            </button>
+            <div class="progress-bar hide" slot="progress-bar">
+                <div class="update-bar"></div>
+            </div>
+            <div class="card-plant">
+                <h1 id="plant">Plant Cell</h1>
+                <button class="burst"><a href="https://shepherdd.com/web-stories/plantcell/"
+                        target="_blank">Burst</a></button>
+
+                <button class="quiz"><a href="https://qwizcards.net/u/genesis/shepherdd"
+                        target="_blank">Quiz</a></button>
+                <button slot="ar-button" class="ar-button">
+                    View in your space
+                </button>
+            </div>
+                <div class="ar-prompt">
+                    <img src="ar_hand_prompt.png" alt="hand">
+                </div>
+
+            <!-- </div> -->
+    </div>
+    </model-viewer>
+
+
+    <!-- End of plant cell -->
+    <!-- </div> -->
+
+
+    <!-- Start of Animal cell-->
+
+
+    <div class="sub">
+        <model-viewer src="animalCell.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls
+            poster="posterAnimalCell.png" shadow-intensity="1" auto-rotate>
+            <button class="Hotspot" slot="hotspot-1"
+                data-position="0.18426741958436532m -0.04380493564151308m 0.45161592600381684m"
+                data-normal="0.45704437613105614m 0.2595180887068726m 0.8507413237176771m"
+                data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Mitochondrion</div>
+            </button><button class="Hotspot" slot="hotspot-2"
+                data-position="0.09473744666521587m -0.01814300203695743m 0.3411002048268321m"
+                data-normal="0.9395015486349728m -0.25369821528695446m 0.23016093428881887m"
+                data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Rough Endoplasmic Reticulum</div>
+            </button><button class="Hotspot" slot="hotspot-3"
+                data-position="0.015165166845286612m 0.08510976522849201m 0.3067915480913092m" data-normal="0m 0m 1m"
+                data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Nucleolus</div>
+            </button><button class="Hotspot" slot="hotspot-4"
+                data-position="-0.002186661559951799m 0.018617591960104152m 0.3382637493083253m"
+                data-normal="0m 0.5417288222340361m 0.8405533196418441m" data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Nucleus</div>
+            </button><button class="Hotspot" slot="hotspot-5"
+                data-position="0.09539257124364016m -0.04899908924646146m 0.5426380290032926m"
+                data-normal="0.0011306902542728926m 0.9999979666220701m -0.0016698177369141366m"
+                data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Cytoplasm</div>
+            </button><button class="Hotspot" slot="hotspot-6"
+                data-position="-0.20092082592935895m 0.006311120497326196m 0.2442966920188408m"
+                data-normal="0.10451097128827838m 0.17905522469350885m 0.9782722951153926m"
+                data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Vacoule</div>
+            </button>
+            <div class="progress-bar hide" slot="progress-bar">
+                <div class="update-bar"></div>
+            </div>
+
+                <div class="card-animalcell">
+                    <h1 id="animalcell">Animal Cell</h1>
+                    <button class="burst"><a href="https://shepherdd.com/web-stories/animalcell/"
+                            target="_blank">Burst</a></button>
+                    <button class="quiz"><a href="https://qwizcards.net/u/genesis/shepherdd"
+                            target="_blank">Quiz</a></button>
+
+                    <button slot="ar-button" class="ar-button">
+                        View in your space
+                    </button>
+                </div>
+                    <div class="ar-prompt">
+                        <img src="ar_hand_prompt.png" alt="hand">
+                    </div>
+
+                <!-- </div> -->
+        </model-viewer>
+        <!-- End of Animal cell -->
+
+        <!-- Start of Heart -->
+    
+        <!-- <model-viewer> HTML element -->
+        <model-viewer src="heart.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls
+            poster="posterHumanHeart.png" shadow-intensity="1" auto-rotate>
+            <button class="Hotspot" slot="hotspot-1"
+                data-position="0.06038533093297151m 0.07164434703036282m 0.18677335484571186m"
+                data-normal="0.5413122717596778m 0.46798459102177625m -0.6985495308197964m"
+                data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Left Atrium</div>
+            </button><button class="Hotspot" slot="hotspot-2"
+                data-position="-0.11625615304811325m 0.05304445236387295m 0.2908723753009485m"
+                data-normal="-0.8644669360774591m 0.5026047226854763m -0.009241707802457557m"
+                data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Right Atrium</div>
+            </button><button class="Hotspot" slot="hotspot-3"
+                data-position="-0.017501466019433407m 0.17971354579637422m 0.3480682659803864m"
+                data-normal="-0.5914487730288255m -0.5555475656329599m 0.584427284785703m"
+                data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Superior Vena Cava</div>
+            </button><button class="Hotspot" slot="hotspot-4"
+                data-position="0.024713457854213514m 0.12771951371057966m 0.3447231457206682m"
+                data-normal="-0.027849873786054285m 0.5510287211448054m 0.8340214223889103m"
+                data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Aorta</div>
+            </button><button class="Hotspot" slot="hotspot-5"
+                data-position="-0.06713121797419679m -0.17144624734409075m 0.3433067871586904m"
+                data-normal="-0.4882764100532847m -0.5551612883139352m 0.673336536468272m"
+                data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Right Ventricle</div>
+            </button><button class="Hotspot" slot="hotspot-6"
+                data-position="0.0889368377868169m -0.15365219496946725m 0.2409424547881607m"
+                data-normal="0.6073293112779311m -0.5166330811097883m -0.6035241231017042m"
+                data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Left Ventricle</div>
+            </button><button class="Hotspot" slot="hotspot-7"
+                data-position="0.027259782911235805m -0.2503114258926831m 0.27082311235484346m"
+                data-normal="0.2118617140346536m -0.8638460757447362m -0.45703891688423903m"
+                data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Apex</div>
+            </button><button class="Hotspot" slot="hotspot-8"
+                data-position="0.09914722583346229m 0.10104781150743686m 0.3234206590557229m"
+                data-normal="0.39555304309436606m 0.8024490011278009m 0.44678114406024483m"
+                data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Pulmonary Trunk</div>
+            </button>
+            <div class="progress-bar hide" slot="progress-bar">
+                <div class="update-bar"></div>
+            </div>
+
+            <div class="card-heart">
+                <h1 id="Heart">Human Heart</h1>
+                <button class="burst"><a href=" https://shepherdd.com/web-stories/the-human-heart/"                    "
+                        target="_blank">Burst</a></button>
+
+                <button class="quiz"><a href="https://qwizcards.net/u/genesis/shepherdd"
+                        target="_blank">Quiz</a></button>
+                <button slot="ar-button" class="ar-button">
+                    View in your space
+                </button>
+            </div>
+                <div class="ar-prompt">
+                    <img src="ar_hand_prompt.png" alt="hand">
+                </div>
+
+            <!-- </div> -->
+        </div>
+
+    </model-viewer>
+    <!-- End of Heart -->
+
+    <!-- Start of Brain -->
+        <!-- <model-viewer> HTML element -->
+    <div class="sub-sub">
+        <model-viewer src="Brain.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls
+            poster="posterBrain.png" shadow-intensity="1" auto-rotate>
+            <button class="Hotspot" slot="hotspot-1"
+                data-position="-0.08719119659803382m 0.1406568017686187m 1.4117400223924506m"
+                data-normal="-0.29249725339550936m 0.16472219141974534m 0.941972375608733m"
+                data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Frontal Lobe</div>
+            </button><button class="Hotspot" slot="hotspot-2"
+                data-position="0.021156507751875386m -0.08094684745863948m 1.1408678811795594m"
+                data-normal="-0.4640181043538724m -0.21801655900217567m 0.8585778816349102m"
+                data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Brainstem</div>
+            </button><button class="Hotspot" slot="hotspot-3"
+                data-position="0.2335720136911663m -0.09634631786218026m 1.1075567096429098m"
+                data-normal="0.8974121131496412m -0.22588246727161512m 0.37898365420105345m"
+                data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Cerebellum</div>
+            </button><button class="Hotspot" slot="hotspot-5"
+                data-position="0.21076461744722397m 0.03837617962276495m 0.9177474306962377m"
+                data-normal="0.22953910574849473m 0.14967040491527764m -0.9617227089055755m"
+                data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Occipital Lobe</div>
+            </button><button class="Hotspot" slot="hotspot-7"
+                data-position="-0.17483369393792625m 0.008039650187786213m 1.0649349017809113m"
+                data-normal="-0.9557525384375997m -0.2724178936221285m -0.11102061297149864m"
+                data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Temporal Lobe</div>
+            </button><button class="Hotspot" slot="hotspot-8"
+                data-position="-0.19139706284166833m 0.17927993821699056m 1.1146168407693122m"
+                data-normal="-0.769829104576504m 0.47566059740219874m -0.4255703770540448m"
+                data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Motor Cortex</div>
+            </button><button class="Hotspot" slot="hotspot-9"
+                data-position="-0.09968032826414802m 0.20883183352402718m 0.9775674691083867m"
+                data-normal="-0.6008783294422712m 0.5967488836643612m -0.531823281788231m"
+                data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Parietal Lobe</div>
+            </button>
+            <div class="progress-bar hide" slot="progress-bar">
+                <div class="update-bar"></div>
+            </div>
+
+            <div class="card-Brain">
+                <h1 id="brain">Human Brain</h1>
+                <button class="burst"><a href="https://shepherdd.com/web-stories/human-brain/"
+                        target="_blank">Burst</a></button>
+                <button class="quiz"><a href="https://qwizcards.net/u/genesis/shepherdd"
+                        target="_blank">Quiz</a></button>
+
+                <button slot="ar-button" class="ar-button">
+                    View in your space
+                </button>
+            </div>
+                <div class="ar-prompt">
+                    <img src="ar_hand_prompt.png" alt="hand">
+                </div>
+            <!-- </div> -->
+
+        </model-viewer>
+        <!-- End of Brain -->
+
+
+        <!-- Start of Renal system-->
+
+        <!-- <model-viewer> HTML element -->
+        <model-viewer src="renal_system.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls
+            poster="posterRenal.png" shadow-intensity="1" auto-rotate>
+            <button class="Hotspot" slot="hotspot-1"
+                data-position="19.57142157002863m -80.91068948823288m 1.1350224587146727m"
+                data-normal="0.7610922721445345m 0.37735751759624436m 0.527579242574488m"
+                data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Bladder</div>
+            </button><button class="Hotspot" slot="hotspot-2"
+                data-position="-40.50874876435319m 5.65870754458642m 19.7691572065194m"
+                data-normal="-0.7644610645839011m 0.39059694585397575m -0.5128677281958726m"
+                data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">ureter</div>
+            </button><button class="Hotspot" slot="hotspot-3"
+                data-position="84.32568068429629m 124.94286126987323m -9.78486336554926m"
+                data-normal="0.9801310618289061m -0.008819352540793815m 0.19815478964411243m"
+                data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Kidney</div>
+            </button><button class="Hotspot" slot="hotspot-4"
+                data-position="51.75581644391798m 203.7878435335418m -16.711140537207825m"
+                data-normal="0.3563760690594272m 0.6177722447565049m 0.700966155395722m"
+                data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Adrenal Gland</div>
+            </button><button class="Hotspot" slot="hotspot-5"
+                data-position="-6.375173215919915m -125.09240334417302m 67.44078028528101m"
+                data-normal="-0.3271000791635434m 0.8803424967444154m 0.3435151039430618m"
+                data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Urethra</div>
+            </button><button class="Hotspot" slot="hotspot-6"
+                data-position="-12.272073502921614m 130.35609779435623m 38.527164008523414m"
+                data-normal="-0.20521198953148467m -0.6449086225412864m 0.7361935261359138m"
+                data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Renal Vein</div>
+            </button><button class="Hotspot" slot="hotspot-7"
+                data-position="6.650633696831736m 146.3420951122107m 28.204093707386622m"
+                data-normal="0.4148179295446132m -0.08477218310836795m 0.9059468871293515m"
+                data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Renal Artery</div>
+            </button>
+            <div class="progress-bar hide" slot="progress-bar">
+                <div class="update-bar"></div>
+            </div>
+            <div class="card-renal">
+                <h1 id="renal">Renal System</h1>
+                <button class="burst"><a href=" https://shepherdd.com/web-stories/renal-system/"
+                        target="_blank">Burst</a></button>
+
+                <button class="quiz"><a href="https://qwizcards.net/u/genesis/shepherdd"
+                        target="_blank">Quiz</a></button>
+
+                <button slot="ar-button" class="ar-button">
+                    View in your space
+                </button>
+            </div>
+                <div class="ar-prompt">
+                    <img src="ar_hand_prompt.png" alt="hand">
+                </div>
+
+          <!-- </div>   -->
+    </div>
+    </model-viewer>
+    <!-- End of Renal system -->
+
+<!-- start of Mitochondrion -->
+
+    <div class="sub-sub-sub">
+        <model-viewer src="mitochondriacellorganelles.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="mitochondrionposter.png" shadow-intensity="1" auto-rotate camera-orbit="345.1deg 29.18deg 352.9m" field-of-view="25.75deg">
+            <button class="Hotspot" slot="hotspot-2" data-position="-23.21027246785241m -0.10182802540901123m 28.734720835255718m" data-normal="-0.8134535635246443m -0.00044477208276911596m -0.5816296950524895m" data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Inner Membrane</div>
+            </button><button class="Hotspot" slot="hotspot-3" data-position="15.848418947497024m -4.075052225043327m 27.397574115113432m" data-normal="0.2242604513638355m -0.05760152908587612m 0.9728254282249502m" data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Outer Membrane</div>
+            </button><button class="Hotspot" slot="hotspot-5" data-position="-4.8115274905746475m -1.7278872478964153m -7.467792094422784m" data-normal="0.10100357234718924m -0.0010405390767778936m -0.9948855188671388m" data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Cristae</div>
+            </button><button class="Hotspot" slot="hotspot-6" data-position="2.7198545851264595m -1.7224919537595849m -0.30589450351458547m" data-normal="-6.617444900424222e-24m 0.9999999999999868m -1.629206789477423e-7m" data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Matrix</div>
+            </button><button class="Hotspot" slot="hotspot-7" data-position="-33.4734014474028m -1.7224928476288195m -5.792425045517053m" data-normal="1.3234889800848446e-23m 0.9999999999999869m -1.6292067894774228e-7m" data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">DNA</div>
+            </button><button class="Hotspot" slot="hotspot-8" data-position="-66.04593265541155m -1.7224906853827537m 7.47934658839463m" data-normal="0m 0.9999999999999869m -1.6292067894774236e-7m" data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Granules</div>
+            </button>
+            <div class="progress-bar hide" slot="progress-bar">
+                <div class="update-bar"></div>
+            </div>
+
+            <div class="mitochodrion">
+                <h1 id="mito">Mitochodrion</h1>
+                <button class="burst"><a href="https://shepherdd.com/web-stories/mitochondrion/"
+                        target="_blank">Burst</a></button>
+                <button class="quiz"><a href="https://qwizcards.net/u/genesis/shepherdd"
+                        target="_blank">Quiz</a></button>
+
+                <button slot="ar-button" class="ar-button">
+                    View in your space
+                </button>
+            </div>
+                <div class="ar-prompt">
+                    <img src="ar_hand_prompt.png" alt="hand">
+                </div>
+            <!-- </div> -->
+
+        </model-viewer>
+        <!-- End of mitochodrion -->
+
+
+        <!-- Start of skin-->
+
+        <!-- <model-viewer> HTML element -->
+            <model-viewer src="anatomy_of_the_skin.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="skinposter.png" shadow-intensity="1" auto-rotate>
+                <button class="Hotspot" slot="hotspot-1" data-position="-1.5529291255967053m 10.413262662059543m -1.1290184758655641m" data-normal="0.13743265872853436m -0.10299206411956628m -0.9851420704868904m" data-visibility-attribute="visible">
+                    <div class="HotspotAnnotation">Hair</div>
+                </button><button class="Hotspot" slot="hotspot-2" data-position="-4.4266826358554425m -9.134415090129487m -0.7987869395413867m" data-normal="-0.0722187243352739m 0.7446547921361067m -0.6635312324255109m" data-visibility-attribute="visible">
+                    <div class="HotspotAnnotation">Apocrine sweat gland</div>
+                </button><button class="Hotspot" slot="hotspot-3" data-position="4.128118469151694m -1.61391943416122m -0.39439624355331654m" data-normal="0.3862620787799454m 0.5284591923483326m -0.7559976775884589m" data-visibility-attribute="visible">
+                    <div class="HotspotAnnotation">Sebaceous gland</div>
+                </button><button class="Hotspot" slot="hotspot-4" data-position="-0.16122873612006305m 3.1871157382256943m 21.127127127373246m" data-normal="-0.06077073879428557m 0.061445605566853655m 0.9962586786888832m" data-visibility-attribute="visible">
+                    <div class="HotspotAnnotation">Stratum corneum</div>
+                </button><button class="Hotspot" slot="hotspot-5" data-position="-0.05819146170936819m -2.3349244864604315m 21.041019574457835m" data-normal="-0.43945829940675474m -0.22218588559615488m 0.8703504095043418m" data-visibility-attribute="visible">
+                    <div class="HotspotAnnotation">Nerve</div>
+                </button><button class="Hotspot" slot="hotspot-6" data-position="-8.666254138021467m -3.9972478384127683m 21.01617323560258m" data-normal="-0.0016748910396978118m 0.12853178719177039m 0.9917039751968804m" data-visibility-attribute="visible">
+                    <div class="HotspotAnnotation">Fibroblast</div>
+                </button><button class="Hotspot" slot="hotspot-7" data-position="-5.268550939590439m 2.02974347405115m 21.076570602189435m" data-normal="0.07588086482285024m 0.03275383110436184m 0.996578788105448m" data-visibility-attribute="visible">
+                    <div class="HotspotAnnotation">Langerhans cell</div>
+                </button><button class="Hotspot" slot="hotspot-8" data-position="-7.896042188456803m 0.4210775409147489m 21.03844081842606m" data-normal="-0.009206102911006486m -0.044216072920963516m 0.9989795726463281m" data-visibility-attribute="visible">
+                    <div class="HotspotAnnotation">Merkel cell</div>
+                </button><button class="Hotspot" slot="hotspot-9" data-position="11.108689216539933m -18.27686521137407m 2.7028177510703273m" data-normal="0.9702546539639473m -0.1989836260240114m -0.13788191700015479m" data-visibility-attribute="visible">
+                    <div class="HotspotAnnotation">Fat in subcutis</div>
+                </button>
+            <div class="progress-bar hide" slot="progress-bar">
+                <div class="update-bar"></div>
+            </div>
+            <div class="human-skin">
+                <h1 id="skin">Skin</h1>
+                <button class="burst"><a href="https://shepherdd.com/web-stories/the-human-skin/"target="_blank">Burst</a></button>
+
+                <button class="quiz"><a href="https://qwizcards.net/u/genesis/shepherdd"
+                        target="_blank">Quiz</a></button>
+
+                <button slot="ar-button" class="ar-button">
+                    View in your space
+                </button>
+            </div>
+                <div class="ar-prompt">
+                    <img src="ar_hand_prompt.png" alt="hand">
+                </div>
+
+          <!-- </div>   -->
+    </div>
+    </model-viewer>
+    <!-- End of skin -->
+
+<!-- start of inner ear -->
+<div class="sub-sub-sub-sub">
+    <model-viewer src="anatomy_of_the_inner_ear.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="innerEarPoster.png" shadow-intensity="1" auto-rotate camera-orbit="-320.3deg 116.8deg 41.87m" field-of-view="24.03deg">
+        <button class="Hotspot" slot="hotspot-1" data-position="-7.96121355064227m 3.9694681167602517m 9.460787750664268m" data-normal="0m 1m 2.220446049250313e-16m" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation">Tympanic membrane</div>
+        </button><button class="Hotspot" slot="hotspot-2" data-position="-1.1518922406907635m 6.542729521579177m 9.860938955113395m" data-normal="-0.9718240967643293m -0.08400797964468923m 0.2202284820458361m" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation">Cochlea</div>
+        </button><button class="Hotspot" slot="hotspot-3" data-position="-1.231785884810673m 8.680349229759281m 11.304544567391988m" data-normal="-0.4916204135356845m -0.8629947698065057m 0.11640187404685039m" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation">Greater petrosal nerve</div>
+        </button><button class="Hotspot" slot="hotspot-5" data-position="-4.307196576430911m 9.111861167082667m 7.18990910766113m" data-normal="-0.23821953173086424m 0.7399904769904585m 0.6290195137397262m" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation">Malleus</div>
+        </button><button class="Hotspot" slot="hotspot-6" data-position="-4.291933033085385m 8.966428861572064m 6.0059308469021895m" data-normal="-0.6914944974109216m 0.6464378164063121m -0.32241822152331284m" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation">Incus</div>
+        </button><button class="Hotspot" slot="hotspot-7" data-position="0.08434002325800805m 7.2951290520546825m 3.0239509327209317m" data-normal="-0.7455791550130313m 0.5867414814865698m 0.31598442606084165m" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation">Posterior semicircular canal</div>
+        </button><button class="Hotspot" slot="hotspot-8" data-position="-2.233194415289754m 8.538713051727894m 5.722064016554669m" data-normal="-0.25427012873773236m 0.9582131005900799m -0.13105096523582924m" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation">Lateral semicircular canal</div>
+        </button><button class="Hotspot" slot="hotspot-9" data-position="-1.0439462878950465m 10.559284319390231m 5.817533268449702m" data-normal="-0.7321541835137335m 0.6249531503271452m -0.2708944655387314m" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation">Superior semicircular canal</div>
+        </button><button class="Hotspot" slot="hotspot-10" data-position="2.6829102418943265m 6.947315673062677m 8.58605517086816m" data-normal="0.09485600431758687m 0.6106232009196441m 0.7862198451728053m" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation">Vestibulocochlear n. (CN VIII), cochlear part</div>
+        </button><button class="Hotspot" slot="hotspot-11" data-position="2.185345813559195m 6.721415782347195m 7.235424022226679m" data-normal="0.08313574526602074m 0.17667316170043254m -0.9807522836036815m" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation">Vestibulocochlear n. (CN VIII), vestibular part</div>
+        </button>
+        <div class="progress-bar hide" slot="progress-bar">
+            <div class="update-bar"></div>
+        </div>
+
+        <div class="HumannInnerEar">
+            <h1 id="innerear">Human Ear</h1>
+            <button class="burst"><a href="https://shepherdd.com/web-stories/the-inner-ear/"
+                    target="_blank">Burst</a></button>
+            <button class="quiz"><a href="https://qwizcards.net/u/genesis/shepherdd"
+                    target="_blank">Quiz</a></button>
+
+            <button slot="ar-button" class="ar-button">
+                View in your space
+            </button>
+        </div>
+            <div class="ar-prompt">
+                <img src="ar_hand_prompt.png" alt="hand">
+            </div>
+        <!-- </div> -->
+
+    </model-viewer>
+    <!-- End of inner ear -->
+
+
+    <!-- Start of somthing else-->
+
+    <!-- <model-viewer> HTML element -->
+    <model-viewer src="renal_system.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls
+        poster="posterRenal.png" shadow-intensity="1" auto-rotate>
+        <button class="Hotspot" slot="hotspot-1"
+            data-position="19.57142157002863m -80.91068948823288m 1.1350224587146727m"
+            data-normal="0.7610922721445345m 0.37735751759624436m 0.527579242574488m"
+            data-visibility-attribute="visible">
+            <div class="HotspotAnnotation">Bladder</div>
+        </button><button class="Hotspot" slot="hotspot-2"
+            data-position="-40.50874876435319m 5.65870754458642m 19.7691572065194m"
+            data-normal="-0.7644610645839011m 0.39059694585397575m -0.5128677281958726m"
+            data-visibility-attribute="visible">
+            <div class="HotspotAnnotation">ureter</div>
+        </button><button class="Hotspot" slot="hotspot-3"
+            data-position="84.32568068429629m 124.94286126987323m -9.78486336554926m"
+            data-normal="0.9801310618289061m -0.008819352540793815m 0.19815478964411243m"
+            data-visibility-attribute="visible">
+            <div class="HotspotAnnotation">Kidney</div>
+        </button><button class="Hotspot" slot="hotspot-4"
+            data-position="51.75581644391798m 203.7878435335418m -16.711140537207825m"
+            data-normal="0.3563760690594272m 0.6177722447565049m 0.700966155395722m"
+            data-visibility-attribute="visible">
+            <div class="HotspotAnnotation">Adrenal Gland</div>
+        </button><button class="Hotspot" slot="hotspot-5"
+            data-position="-6.375173215919915m -125.09240334417302m 67.44078028528101m"
+            data-normal="-0.3271000791635434m 0.8803424967444154m 0.3435151039430618m"
+            data-visibility-attribute="visible">
+            <div class="HotspotAnnotation">Urethra</div>
+        </button><button class="Hotspot" slot="hotspot-6"
+            data-position="-12.272073502921614m 130.35609779435623m 38.527164008523414m"
+            data-normal="-0.20521198953148467m -0.6449086225412864m 0.7361935261359138m"
+            data-visibility-attribute="visible">
+            <div class="HotspotAnnotation">Renal Vein</div>
+        </button><button class="Hotspot" slot="hotspot-7"
+            data-position="6.650633696831736m 146.3420951122107m 28.204093707386622m"
+            data-normal="0.4148179295446132m -0.08477218310836795m 0.9059468871293515m"
+            data-visibility-attribute="visible">
+            <div class="HotspotAnnotation">Renal Artery</div>
+        </button>
+        <div class="progress-bar hide" slot="progress-bar">
+            <div class="update-bar"></div>
+        </div>
+        <div class="card-renal">
+            <h1 id="renal">Renal System</h1>
+            <button class="burst"><a href=" https://shepherdd.com/web-stories/renal-system/"
+                    target="_blank">Burst</a></button>
+
+            <button class="quiz"><a href="https://qwizcards.net/u/genesis/shepherdd"
+                    target="_blank">Quiz</a></button>
+
+            <button slot="ar-button" class="ar-button">
+                View in your space
+            </button>
+        </div>
+            <div class="ar-prompt">
+                <img src="ar_hand_prompt.png" alt="hand">
+            </div>
+
+      <!-- </div>   -->
+</div>
+</model-viewer>
+<!-- End of something else -->
+
+
+
+
+
+    <footer>
+        <img class="logo_footer" src="skapezEmpireLogo.png" alt="logo">
+        <img class="logo_footer" src="MeyRAR_union Transparent.png" alt="logo">
+        <ul class="ft_one">
+            <li><a href="shepherdd.com">shepherdd</a></li>
+            <li><a href="#">Communities</a></li>
+            <li><a href="#">Privacy policy</a></li>
+            <li><a href="#">Cookies notice</a></li>
+        </ul>
+
+        <ul class="ft_two">
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Locations</a></li>
+            <li><a href="#">Partners</a></li>
+        </ul>
+
+        <div class="extras">
+
+            <div class="soc">
+
+
+                <ion-icon name="logo-facebook"></ion-icon>
+                <ion-icon name="logo-twitter"></ion-icon>
+                <ion-icon name="logo-linkedin"></ion-icon>
+
+
+            </div>
+
+            <p>&copy 2023 SkapezEmpire</p>
+
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+    <!-- Loads <model-viewer> for browsers: -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
+  </body>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+</body>
+
+</html>
